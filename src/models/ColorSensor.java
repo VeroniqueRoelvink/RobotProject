@@ -14,6 +14,7 @@ import lejos.utility.Delay;
 
 public class ColorSensor implements ColorDetector, ColorIdentifier {
 
+	// Comment
 	EV3ColorSensor sensor = new EV3ColorSensor(SensorPort.S4);
 	float black;
 	float white;
